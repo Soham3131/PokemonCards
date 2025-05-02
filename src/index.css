@@ -2,4 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@layer utilities {
+    .animate-ping-slow {
+      animation: ping 1s ease-out;
+    }
+  }
